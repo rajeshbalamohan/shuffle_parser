@@ -1,3 +1,12 @@
+create a mapping.csv file of your environment (e.g
+
+machine1,1
+machine2,2
+machine,3 etc
+)
+
+Upload this to HDFS.  This is just for plotting the details easier.
+
 yarn logs -applicationId appId > SOME_HDFS_LOCATION
 
 populate params.txt
