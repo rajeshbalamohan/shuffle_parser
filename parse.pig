@@ -39,11 +39,6 @@ DEFINE generateSourceToDestinationMappingPerAttempt() RETURNS void {
 }
 
 
--- clean up the directories (more like initial cleanup)
--- fs -rmr /user/rajesh/pig/data/query92_10tb_25_sep/rate.csv;
--- fs -rmr /user/rajesh/pig/data/query92_10tb_25_sep/srcToAttempt.csv;
--- fs -rmr /user/rajesh/pig/data/query92_10tb_25_sep/results.csv;
--- fs -rmr /user/rajesh/pig/data/query92_10tb_25_sep/end_to_end_result.csv;
 
 -- parse the fetcher logs
 parseFetcherData();
