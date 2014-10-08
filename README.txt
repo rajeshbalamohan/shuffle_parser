@@ -29,7 +29,8 @@ set pm3d
 set palette
 set hidden3d
 set dgrid3d 50,50 qnorm 2
-set datafile separator ' '
+set datafile separator ','
+set view 55,32,1,1
 splot '/Users/rbalamohan/Downloads/end_to_end_result.csv' using 4:5:6 with l
 
 
@@ -46,7 +47,8 @@ set pm3d
 set palette
 set hidden3d
 set dgrid3d 50,50 qnorm 2
-set datafile separator ' '
+set datafile separator ','
+set view 55,32,1,1
 splot '/Users/rbalamohan/Downloads/attempt_timings.csv' using 4:5:7 with l
 
 
@@ -60,5 +62,6 @@ set pm3d
 set palette
 set hidden3d
 set dgrid3d 50,50 qnorm 2
-set datafile separator ' '
+set datafile separator ','
+set view 55,32,1,1
 splot '/Users/rbalamohan/Downloads/attempt_timings.csv' using 4:5:9 with l
